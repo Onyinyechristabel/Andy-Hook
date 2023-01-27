@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 125%;
+}
+
+html {
+    font-family: 'Plus Jakarta Sans';
+    font-size: calc(100vw / 1140);
+}
+
+body {
+    background-color: #040516;
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#second {
+    display: grid;
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30rem;
+    font-size: 12rem;
+
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.nav2 :last-child {
+    color: rgba(65, 50, 204, 0.863);
+}
+
+.man {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+}
+
+.nav0 {
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+
+}
+
+.nav3 {
+    font-size: 13rem;
+    
+
+}
+.nav3 h2{
+    font-family: Grifter;
+}
+
+.nav {
+    padding: 35rem 70rem;
+}
+
+.h1 {
+    font-size: 48rem;
+    font-weight: 600;
+    font-family: 'GRIFTER';
+}
+
+.p {
+    font-size: 14rem;
+
+}
+
+.btn {
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+    padding: 15rem 30rem;
+    margin: 0 auto;
+
+}
+
+.btn0 {
+    padding: 7rem 19rem;
+    font-size: 11rem;
+    background-color: #0d0c11;
+    color: white;
+    border-radius: 5rem;
+    border: none;
+
+}
+
+.btn2 {
+    padding: 7rem 19rem;
+    font-size: 11rem;
+    border-radius: 5rem;
+    background-color: white;
+    color: #0d0c11;
+    border: none;
+}
+
+#no0 {
+    background-color: wheat;
+    color: #0d0c11;
+    max-height: 600rem;
+}
+
+.herodiv {
+    width: 85%;
+    margin: 0 auto;
+    background: rgb(2, 0, 128);
+    margin-top: 20rem;
+}
+
+.hero {
+    width: 100%;
+    transform: rotate(4deg);
+}
+
+.no2 {
+    margin-top: 300rem;
+    padding: 0 60rem;
+}
+
+.concept {
+    width: 55rem;
+}
+
+.logos>img {
+    width: 135rem;
+}
+
+.logos {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.years {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 10rem;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+section h1 {
+    font-family: "Grifter";
+    font-size: 46rem;
+    line-height: 46rem;
+}
+
+section h2 {
+    font-family: "Grifter";
+    font-size: 22rem;
+}
+
+section h3 {
+
+    font-size: 9rem;
+    color: rgb(43, 55, 226);
+}
+
+section p {
+    font-size: 8rem;
+}
+
+section {
+    display: flex;
+
+}
+
+.whyme {
+    width: 528rem;
+    padding: 50rem 0;
+    background: none
+}
+
+.customdesign {
+    display: flex;
+    gap: 20rem;
+    padding: 60rem 0;
+
+
+}
+
+.customimg {
+    width: 475rem;
+    transform: rotate(-4deg);
+}
+
+.customdiv {
+    background: #2f4052;
+    margin-left: auto;
+}
+
+.custom {
+    width: 440rem;
+    margin-top: 66rem;
+}
+
+.custom>h2 {
+    font-size: 37rem;
+    padding: 12rem 0;
+    line-height: 37rem;
+}
+
+.custom>p {
+    font-size: 15rem;
+    line-height: 17rem;
+
+}
+
+.reliable {
+    transform: rotate(4deg);
+}
+
+.custom button {
+    padding: 7rem 16rem;
+    margin-top: 16rem;
+}
+
+.switchimg {
+    width: 100rem;
+    margin: 0 auto;
+}
+
+.switchdesign {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding-bottom: 40rem;
+}
+
+.absolute {
+    font-size: 34rem;
+    width: 570rem;
+    margin: 0 auto;
+}
+
+.doimg {
+    width: 33rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.do {
+    color: white;
+}
+
+.webflow {
+    background-color: white;
+    color: black;
+    font-size: 20rem;
+    padding: 40rem  50rem  200rem 50rem;
+}
+
+.why {
+    font-size: 12rem;
+    color: rgb(43, 55, 226);
+    font-weight: 600;
+    padding: 40rem 10rem 0 0;
+    text-align: center;
+}
+
+.future {
+    font-size: 30rem;
+    text-align: center;
+    font-family: grifter;
+}
+.cube{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    gap: 30rem;
+}
+
+.web {
+    width: 300rem;
+    margin: 0 auto;
+
+}
+.optimised h3{
+font-size: 16rem;
+font-weight: 600;
+text-align: center;
+padding-top: 40rem;
+
+}
+.optimised p{
+    font-size: 15rem;
+    text-align: center;
+    padding-top: 10rem;
+    
+}
+.hide{
+    display: none;
+}

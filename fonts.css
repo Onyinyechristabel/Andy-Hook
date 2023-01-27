@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Plusjakartasans';
+  src: url('https://uploads-ssl.webflow.com/62c435401c8f7261df7dac30/62c4439d98e9ab8c25c1bb3c_PlusJakartaSans-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plusjakartasans';
+  src: url('https://uploads-ssl.webflow.com/62c435401c8f7261df7dac30/62c4439c8e90293478dcca63_PlusJakartaSans-ExtraBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plusjakartasans';
+  src: url('https://uploads-ssl.webflow.com/62c435401c8f7261df7dac30/62c443c315589af9e5482916_PlusJakartaSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plusjakartasans';
+  src: url('https://uploads-ssl.webflow.com/62c435401c8f7261df7dac30/62c443c398e9ab7550c1bc6e_PlusJakartaSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Grifter';
+  src: url('https://uploads-ssl.webflow.com/62c435401c8f7261df7dac30/62c44459f98b105b57df1d81_GRIFTER%E2%84%A2%2BBold.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,364 @@
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        line-height: 125%;
+    }
+
+    html {
+        font-family: 'Plus Jakarta Sans';
+        font-size: calc(100vw / 640);
+        max-width: 640rem;
+        overflow-x: hidden;
+    }
+
+    body {
+        background-color: #040516;
+        color: aliceblue;
+        max-width: 640rem;
+        overflow-x: hidden;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .hide {
+        display: block;
+        font-size: 55rem;
+        height: 60rem;
+    }
+
+    #second {
+        display: grid;
+        width: 87.5%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20rem;
+
+    }
+
+    .nav2 {
+        display: flex;
+        flex-direction: row;
+        gap: 30rem;
+        font-size: 13rem;
+        display: none;
+        content: "\F479"
+    }
+
+    .nav::after {
+        display: block;
+    }
+
+    h3 {
+        font-weight: 400;
+    }
+
+    .nav2 :last-child {
+        color: rgba(65, 50, 204, 0.863);
+    }
+
+    .man {
+        width: 100rem;
+        height: 100rem;
+        border-radius: 50%;
+    }
+
+    .nav0 {
+        display: flex;
+        gap: 20rem;
+        align-items: center;
+
+
+    }
+
+    .nav3 {
+        font-size: 40rem;
+        text-align: center;
+
+    }
+
+    .nav3 h2 {
+        font-family: Grifter;
+        font-size: 30rem;
+
+    }
+
+    .nav3 p {
+        font-size: 20rem;
+    }
+
+
+    .nav {
+        padding: 20rem;
+    }
+
+    .h1 {
+        font-size: 60rem;
+        font-weight: 600;
+        font-family: 'GRIFTER';
+    }
+
+    .p {
+        font-size: 31rem;
+
+    }
+
+    .btn {
+        display: flex;
+        gap: 20rem;
+        align-items: center;
+        padding: 15rem 30rem;
+        margin: 0 auto;
+
+    }
+
+    .btn0 {
+        padding: 24rem 124rem;
+        font-size: 35rem;
+        background-color: #0d0c11;
+        color: white;
+        border-radius: 16rem;
+        border: none;
+
+    }
+
+    .btn2 {
+        padding: 7rem 19rem;
+        font-size: 11rem;
+        border-radius: 5rem;
+        background-color: white;
+        color: #0d0c11;
+        border: none;
+        display: none;
+    }
+
+    #no0 {
+        background-color: wheat;
+        color: #0d0c11;
+        max-height: 882.1rem;
+
+    }
+
+    .herodiv {
+        width: 85%;
+        margin: 0 auto;
+        background: rgb(2, 0, 128);
+        margin-top: 20rem;
+    }
+
+    .hero {
+        width: 100%;
+        transform: rotate(4deg);
+    }
+
+    .no2 {
+        margin-top: 98rem;
+        padding: 0 58rem;
+    }
+
+    .concept {
+        width: 101rem;
+    }
+
+    .logos>img {
+        width: 230rem;
+    }
+
+    .logos {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+        gap: 20rem;
+    }
+
+    .years {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 30rem;
+        text-align: center;
+        font-weight: 700;
+        padding: 60rem 0 30rem 0;
+    }
+
+    section h1 {
+        font-family: "Grifter";
+        font-size: 52rem;
+        line-height: 58rem;
+    }
+
+    section h2 {
+        font-family: "Grifter";
+        font-size: 22rem;
+    }
+
+    section h3 {
+
+        font-size: 28rem;
+        color: rgb(43, 55, 226);
+    }
+
+    section p {
+        font-size: 30rem;
+
+        margin-bottom: 78rem;
+    }
+
+    section {
+        display: flex;
+
+    }
+
+    .whyme {
+        width: 528rem;
+        padding: 50rem 0;
+        background: none
+    }
+
+    .customdesign {
+        display: flex;
+        gap: 20rem;
+        padding: 60rem 0;
+        flex-direction: column;
+
+
+    }
+
+    .customimg {
+        width: 475rem;
+        transform: rotate(2deg);
+    }
+
+    .customdiv {
+        background: #2f4052;
+        margin: 62rem auto 0;
+    }
+
+    .custom {
+        width: 440rem;
+        margin-top: -20rem;
+        display: grid;
+        gap: 16rem;
+    }
+
+    .custom>h2 {
+        font-size: 44rem;
+        padding: 12rem 0;
+        line-height: 57rem;
+    }
+
+    .custom>p {
+        font-size: 25rem;
+        line-height: 35rem;
+
+    }
+
+    .customdesign:nth-of-type(5) p {
+        font-size: 28rem;
+        width: 120%;
+        line-height: 42rem;
+    }
+
+    .reliable {
+        transform: rotate(-2deg);
+    }
+
+    .custom button {
+        padding: 28rem 34rem;
+        margin-top: 16rem;
+        font-size: 34rem;
+        width: 120%;
+        border-radius: 20rem;
+    }
+
+
+    .switchimg {
+        width: 221rem;
+        margin: 0 auto;
+        padding: 158rem 0 30rem 0;
+    }
+
+
+    .switchdesign {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        gap: 2rem;
+        padding-bottom: 40rem;
+    }
+
+    .absolute {
+        font-size: 49rem;
+        width: 570rem;
+        margin: 0 auto;
+    }
+
+    .doimg {
+        width: 98rem;
+        border-radius: 50%;
+        margin: 0 auto;
+        padding: 60rem 0;
+    }
+
+    .do {
+        color: white;
+    }
+
+    .webflow {
+        background-color: white;
+        color: black;
+        font-size: 20rem;
+        padding: 40rem 50rem 200rem 50rem;
+    }
+
+    .why {
+
+        font-size: 28rem;
+        color: rgb(43, 55, 226);
+        font-weight: 700;
+        padding: 116rem 7rem 27rem 0;
+        text-align: center;
+    }
+
+
+    .future {
+        font-size: 56rem;
+        text-align: center;
+        font-family: grifter;
+    }
+
+    .cube {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 85rem;
+    }
+
+    .web {
+        width: 400rem;
+        margin: 0 auto;
+
+    }
+
+    .optimised h3 {
+        font-size: 33rem;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 40rem;
+    }
+
+    .optimised p {
+        font-size: 30rem;
+        text-align: center;
+        padding-top: 10rem;
+
+    }
+
+}
