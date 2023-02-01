@@ -51,6 +51,19 @@
         content: "\F479"
     }
 
+    .open {
+        border: 3rem solid black;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 600rem;
+        min-height: 412rem;
+        margin-top: 139rem;
+        font-size: 25rem;
+        background-color: wheat;
+        padding: 40rem 20rem 40rem 20rem;
+    }
+
     .nav::after {
         display: block;
     }
@@ -120,11 +133,12 @@
 
     .btn0 {
         padding: 24rem 124rem;
-        font-size: 35rem;
+        font-size: 33rem;
         background-color: #0d0c11;
         color: white;
         border-radius: 16rem;
         border: none;
+        text-decoration: none;
 
     }
 
